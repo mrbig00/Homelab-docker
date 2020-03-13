@@ -104,4 +104,4 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /proc:/host/proc
-#      - ./config/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf
+      - ./config/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf
